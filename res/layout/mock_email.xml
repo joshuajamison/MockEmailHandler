@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mock Email Handler"
+        style="@android:style/TextAppearance.Large.Inverse"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Small"
+        android:text="TO:" />
+        
+    <EditText 
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Small"
+        android:text="CC:" />
+        
+    <EditText 
+        android:id="@+id/cc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Small"
+        android:text="BCC:" />
+        
+    <EditText 
+        android:id="@+id/bcc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Small"
+        android:text="SUBJECT:" />
+        
+    <EditText 
+        android:id="@+id/subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Small"
+        android:text="BODY:" />
+        
+    <EditText 
+        android:id="@+id/body"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
