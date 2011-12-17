@@ -1,0 +1,5 @@
+MockEmailHandler
+================
+
+This code is intended as a mock application for the android emulator. This application has no executable. It will respond to "Intent.createChooser()" requests exactly as the default Android Mail application.
+
